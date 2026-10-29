@@ -1,0 +1,17 @@
+name: macOS checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: zsh -n install.sh uninstall.sh bin/mac-unlock-notify
+      - run: zsh install.sh --help
+      - run: zsh uninstall.sh --help
+      - run: plutil -lint share/com.mac-unlock-notify.plist.template
+      - run: python3 scripts/check-migration.py

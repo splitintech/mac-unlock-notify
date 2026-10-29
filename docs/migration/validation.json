@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "checks_passed": [
+    "zsh syntax: installer, uninstaller, watcher",
+    "installer/uninstaller help commands",
+    "LaunchAgent plist lint",
+    "migration source/hash inventory",
+    "local Markdown links"
+  ],
+  "not_performed": [
+    "npm or marketplace publication",
+    "live provider actions",
+    "LaunchAgent installation and live unlock notification"
+  ]
+}

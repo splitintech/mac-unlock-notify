@@ -1,0 +1,75 @@
+{
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "files": [
+    {
+      "path": "docs/brand/splitin-logo.png",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "source_sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bd4d2ea5f49cb6820fffd168b929d32d56e7c4b735c41836f92782685ba03d7f",
+      "source_sha256": "1b942ae216b0d46ca243547b860f956734ca400aada0c65d832d59a9b4e619e8",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "source_sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "1a26ecd065965649a112878c10435f31f50cd254e98d8710f916ae0bdba3c336",
+      "source_sha256": "ca7343a4d7db199ae6538a8fa61ac1a3c59e119d992c9e9ae0cd9ee5d4781e1a",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "bin/mac-unlock-notify",
+      "sha256": "572510cde0ed52ecfb699eb34fa2c76c955c734a09e31ea43fb79928fe96518b",
+      "source_sha256": "572510cde0ed52ecfb699eb34fa2c76c955c734a09e31ea43fb79928fe96518b",
+      "mode": "100755",
+      "change": null
+    },
+    {
+      "path": "docs/banner.webp",
+      "sha256": "2d84f6df305430d4eaa386ae7af5d5729aa8055190c5e0b711a78a2658585fa3",
+      "source_sha256": "2d84f6df305430d4eaa386ae7af5d5729aa8055190c5e0b711a78a2658585fa3",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "env.example",
+      "sha256": "882b83c38ed9cb64d18e5da3bb45a93a56613648550d013e19f2e4c1cace3162",
+      "source_sha256": "882b83c38ed9cb64d18e5da3bb45a93a56613648550d013e19f2e4c1cace3162",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "install.sh",
+      "sha256": "40f1800feb3351034ecbd7d19714fa2701dc77a3a745dd8e65a7b92e074d8a7f",
+      "source_sha256": "40f1800feb3351034ecbd7d19714fa2701dc77a3a745dd8e65a7b92e074d8a7f",
+      "mode": "100755",
+      "change": null
+    },
+    {
+      "path": "share/com.mac-unlock-notify.plist.template",
+      "sha256": "b68732e0cfb1d995d02fe1b9d18aa29a33a1be5b09da658089b25b9fc1506533",
+      "source_sha256": "b68732e0cfb1d995d02fe1b9d18aa29a33a1be5b09da658089b25b9fc1506533",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "uninstall.sh",
+      "sha256": "2d72abaf9e2c82d596e7b0af7ab9be45952b92528e5bb50e84cfe926a092946a",
+      "source_sha256": "2d72abaf9e2c82d596e7b0af7ab9be45952b92528e5bb50e84cfe926a092946a",
+      "mode": "100755",
+      "change": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "source_repository": "https://github.com/splitintech/open-internal-tools",
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "product": "mac-unlock-notify",
+  "files": [
+    {
+      "source": "docs/brand/splitin-logo.png",
+      "target": "docs/brand/splitin-logo.png",
+      "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+      "mode": "100644",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+    },
+    {
+      "source": "mac-unlock-notify/.gitignore",
+      "target": ".gitignore",
+      "git_blob": "192f9a0139a035b237bd329ceef9ce70f106a8ec",
+      "mode": "100644",
+      "sha256": "1b942ae216b0d46ca243547b860f956734ca400aada0c65d832d59a9b4e619e8"
+    },
+    {
+      "source": "mac-unlock-notify/LICENSE",
+      "target": "LICENSE",
+      "git_blob": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "mode": "100644",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685"
+    },
+    {
+      "source": "mac-unlock-notify/README.md",
+      "target": "README.md",
+      "git_blob": "1cf4505de9943fbfc252e86db253e4f27476bc46",
+      "mode": "100644",
+      "sha256": "ca7343a4d7db199ae6538a8fa61ac1a3c59e119d992c9e9ae0cd9ee5d4781e1a"
+    },
+    {
+      "source": "mac-unlock-notify/bin/mac-unlock-notify",
+      "target": "bin/mac-unlock-notify",
+      "git_blob": "74f6069ab5ce75ca5b5bd8af5855d804b2a10fc5",
+      "mode": "100755",
+      "sha256": "572510cde0ed52ecfb699eb34fa2c76c955c734a09e31ea43fb79928fe96518b"
+    },
+    {
+      "source": "mac-unlock-notify/docs/banner.webp",
+      "target": "docs/banner.webp",
+      "git_blob": "d064270b79ff25ad4b3e8a4e739f0a366c48d9c4",
+      "mode": "100644",
+      "sha256": "2d84f6df305430d4eaa386ae7af5d5729aa8055190c5e0b711a78a2658585fa3"
+    },
+    {
+      "source": "mac-unlock-notify/env.example",
+      "target": "env.example",
+      "git_blob": "83a43a7d4ae067c99c1bae7f34f72535125b6875",
+      "mode": "100644",
+      "sha256": "882b83c38ed9cb64d18e5da3bb45a93a56613648550d013e19f2e4c1cace3162"
+    },
+    {
+      "source": "mac-unlock-notify/install.sh",
+      "target": "install.sh",
+      "git_blob": "59941ff8d86895a1fda53a7842ad7ff8a486cf05",
+      "mode": "100755",
+      "sha256": "40f1800feb3351034ecbd7d19714fa2701dc77a3a745dd8e65a7b92e074d8a7f"
+    },
+    {
+      "source": "mac-unlock-notify/share/com.mac-unlock-notify.plist.template",
+      "target": "share/com.mac-unlock-notify.plist.template",
+      "git_blob": "4fb71e0f08c6b2e50fa3c73472cc6ae6441ba756",
+      "mode": "100644",
+      "sha256": "b68732e0cfb1d995d02fe1b9d18aa29a33a1be5b09da658089b25b9fc1506533"
+    },
+    {
+      "source": "mac-unlock-notify/uninstall.sh",
+      "target": "uninstall.sh",
+      "git_blob": "cd919e5f80010c832800250c7eb1be249e2ddd91",
+      "mode": "100755",
+      "sha256": "2d72abaf9e2c82d596e7b0af7ab9be45952b92528e5bb50e84cfe926a092946a"
+    }
+  ]
+}

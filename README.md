@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../docs/brand/splitin-logo.png" alt="SplitIn logo" width="96" height="96">
+  <img src="docs/brand/splitin-logo.png" alt="SplitIn logo" width="96" height="96">
 </p>
 
 <h1 align="center">mac-unlock-notify</h1>
@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/splitintech/open-internal-tools/blob/main/mac-unlock-notify/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
-  <a href="https://github.com/splitintech/open-internal-tools/tree/main/mac-unlock-notify"><img src="https://img.shields.io/badge/product-open--internal--tools-orange" alt="Open Internal Tools"></a>
-  <a href="https://github.com/splitintech/open-internal-tools/issues"><img src="https://img.shields.io/github/issues/splitintech/open-internal-tools" alt="Issues"></a>
+  <a href="https://github.com/splitintech/mac-unlock-notify/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
+  <a href="https://github.com/splitintech/mac-unlock-notify"><img src="https://img.shields.io/badge/product-open--internal--tools-orange" alt="Open Internal Tools"></a>
+  <a href="https://github.com/splitintech/mac-unlock-notify/issues"><img src="https://img.shields.io/github/issues/splitintech/mac-unlock-notify" alt="Issues"></a>
 </p>
 
 <p align="center">
-  <a href="../README.md">Hub</a>
+  <a href="https://github.com/splitintech/open-internal-tools">Hub</a>
   ·
   <a href="#getting-started">Docs</a>
   ·
@@ -64,8 +64,8 @@ unlock → ioreg → zsh watcher → curl → Slack webhook → iPhone banner
 ## Getting started
 
 ```zsh
-git clone https://github.com/splitintech/open-internal-tools.git
-cd open-internal-tools/mac-unlock-notify
+git clone https://github.com/splitintech/mac-unlock-notify.git
+cd mac-unlock-notify
 chmod +x install.sh uninstall.sh bin/mac-unlock-notify
 ./install.sh
 ```
@@ -177,7 +177,7 @@ Logs: `~/Library/Logs/mac-unlock-notify.log`
 
 ## Careers
 
-This folder is product-tech an individual contributor owns end to end. SplitIn engineering: **Tech 51%. Business 50.** We invest **45% as R&D** back to the open-source tools SplitIn uses. MVP first, then merge with tests, trust-me-bro benchmarks, and live user tests. We build fast and then refine — every contributor brings an acquaintance after building the building blocks of the architecture. Every project would be allotted funds. Full mission and stack: [splitin.net/tech-stack](https://www.splitin.net/tech-stack). Hub: [open-internal-tools](../README.md).
+This folder is product-tech an individual contributor owns end to end. SplitIn engineering: **Tech 51%. Business 50.** We invest **45% as R&D** back to the open-source tools SplitIn uses. MVP first, then merge with tests, trust-me-bro benchmarks, and live user tests. We build fast and then refine — every contributor brings an acquaintance after building the building blocks of the architecture. Every project would be allotted funds. Full mission and stack: [splitin.net/tech-stack](https://www.splitin.net/tech-stack). Hub: [open-internal-tools](https://github.com/splitintech/open-internal-tools).
 
 Own this product-tech end to end — or explore SplitIn tech careers — at **[https://www.splitin.net/careers-requests](https://www.splitin.net/careers-requests)**.
 
@@ -187,4 +187,9 @@ Own this product-tech end to end — or explore SplitIn tech careers — at **[h
 
 ## License
 
-MIT. See [LICENSE](LICENSE). Program rules: [CONTRIBUTING.md](../CONTRIBUTING.md).
+MIT. See [LICENSE](LICENSE). Program rules: [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
+## Standalone repository
+
+This product is maintained at [mac-unlock-notify](https://github.com/splitintech/mac-unlock-notify). Clone this repository and run the documented setup from its root. The npm/package and API identities are preserved. See [migration provenance](docs/migration.md) and [contributing](CONTRIBUTING.md).
